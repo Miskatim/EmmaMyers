@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styleSignUp.css">
+    <link rel="stylesheet" href="./styleLogin.css">
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <script type="module" src="./scriptDateBase.js"></script>
+</head>
+<body>
+
+
+    <!-- <h1>Login Form</h1>
+    <input type="text" id="usernameInput" placeholder="Username">
+    <input type="text" id="passwordInput" placeholder="Password">
+    <button id="loginButton">Login</button>
+    <p id="message"></p> -->
+    
+    <div id="loginForm">
+        <div id="mainLoginSquare">
+            <h1>Login Form</h1>
+            <input id="inputInformationUserNameID" class="inputInformationLI" placeholder="Username" type="text">
+            <input id="inputInformationPasswordID" class="inputInformationLI" placeholder="Password" type="password">
+            <button id="btn1">
+                <h2>Login</h2>
+            </button>
+            <span class="spanLink">
+                <h3 id="forgotLink" style="color:#2D79BF">Forgot password?</h3>
+            </span>
+            <span class="spanLink">
+                <h3>Not a member?</h3>
+                <h3 id="signUpLink" style="color:#2D79BF">Sign Up now</h3>
+            </span>
+        </div>
+    </div>
+
+    <div id="signUpForm" style="display: none;">
+        <div id="inputField">
+            <h1 id="signUpLoginFormsMainText">Sign Up Form</h1>
+            <input class="inputInformation" placeholder="Username" type="text">
+            <input class="inputInformation" placeholder="Create Password" type="password">
+            <input class="inputInformation" placeholder="Confirm Password" type="password">
+            <button id="confirmingSignUp">
+                <h2>Sign Up</h2>
+            </button>
+            <span id="spanLink">
+                <h3>Already have account?</h3>
+                <button id="loginLink">
+                    <h3>Login now</h3>
+                </button>
+            </span>
+        </div>
+        <div id="madeBy">
+            <h6 style="color: white;">Made by MVCompany</h6>
+        </div>
+    </div>
+
+    
+</body>
+</html>
