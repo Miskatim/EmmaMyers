@@ -77,7 +77,7 @@ a{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     #mainLoginSquare{
         display:flex;
         height: 70vh;
